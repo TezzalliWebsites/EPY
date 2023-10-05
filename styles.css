@@ -290,7 +290,7 @@ a {
 
 .bottom {
     background-color: #97bbe2;
-    height: 200vh;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
