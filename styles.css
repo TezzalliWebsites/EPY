@@ -145,8 +145,7 @@ a {
 
 
 .legends {
-    height: 280vh;
-    width: 100vw;
+   
 }
 .legends-content {
     
@@ -223,7 +222,6 @@ a {
 }
 .epy-section { 
     background-color: #F0F7FF;
-    margin-top: 30rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -262,6 +260,7 @@ a {
 
 .sea-images-container{
     margin-top: 10rem;
+    position: relative;
     display: flex;
     justify-content: center;
     margin-bottom: 13rem;
@@ -411,7 +410,7 @@ a {
 .waves-image {
     width: 100%;
     position: relative;
-    bottom: 0;
+    bottom: -10px;
 }
 
 .blue-image {
@@ -423,4 +422,12 @@ a {
     width: 100%;
     position: relative;
     bottom: 0;
+}
+
+.epymar-image {
+    position: absolute;
+    right: -300px ;
+    top: -350px;
+    width: 50%;
+    z-index: 0;
 }
