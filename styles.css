@@ -224,6 +224,7 @@ a {
 .epy-section { 
     background-color: #F0F7FF;
     margin-top: 30rem;
+    padding-bottom: 8rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -407,4 +408,21 @@ a {
 .footer-logo {
     height: 76px;
     margin-top: 10px;
+}
+
+.waves-image {
+    width: 100%;
+    position: absolute;
+    top: 192rem
+}
+
+.blue-image {
+    width: 100%;
+    position: absolute;
+    top: 326.39rem;
+}
+.darkblue-image {
+    width: 100%;
+    position: relative;
+    bottom: 0;
 }
