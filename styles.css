@@ -145,7 +145,7 @@ a {
 
 
 .legends {
-    height: 270vh;
+    height: 280vh;
     width: 100vw;
 }
 .legends-content {
@@ -224,7 +224,6 @@ a {
 .epy-section { 
     background-color: #F0F7FF;
     margin-top: 30rem;
-    padding-bottom: 8rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -291,7 +290,6 @@ a {
 
 .bottom {
     background-color: #97bbe2;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -412,14 +410,14 @@ a {
 
 .waves-image {
     width: 100%;
-    position: absolute;
-    top: 192rem
+    position: relative;
+    bottom: 0;
 }
 
 .blue-image {
     width: 100%;
-    position: absolute;
-    top: 326.39rem;
+    position: relative;
+    bottom: 0;
 }
 .darkblue-image {
     width: 100%;
